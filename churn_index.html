@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Churn Prediction</title>
+</head>
+<body>
+    <h1>Customer Churn Prediction</h1>
+    <form action="/" method="post">
+        <label for="Age">Age:</label>
+        <input type="number" id="Age" name="Age" required><br><br>
+
+        <label for="Gender">Gender:</label>
+        <select id="Gender" name="Gender" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br><br>
+
+        <label for="Location">Location:</label>
+        <input type="text" id="Location" name="Location" required><br><br>
+
+        <label for="Subscription_Length_Months">Subscription Length (Months):</label>
+        <input type="number" id="Subscription_Length_Months" name="Subscription_Length_Months" required><br><br>
+
+        <label for="Monthly_Bill">Monthly Bill:</label>
+        <input type="number" id="Monthly_Bill" name="Monthly_Bill" required><br><br>
+
+        <label for="Total_Usage_GB">Total Usage (GB):</label>
+        <input type="number" id="Total_Usage_GB" name="Total_Usage_GB" required><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+   
+</body>
+</html>
+
